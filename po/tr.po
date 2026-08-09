@@ -1,0 +1,128 @@
+# Turkish translations for plasma-welcome-fedora package
+# Copyright (C) 2025 THE plasma-welcome-fedora'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the plasma-welcome-fedora package.
+# Emir SARI <emir_sari@icloud.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-welcome-fedora\n"
+"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
+"evernight/issue\n"
+"POT-Creation-Date: 2026-08-09 10:53+0800\n"
+"PO-Revision-Date: 2025-03-21 04:16+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/fedora-"
+"kde/plasma-welcome-fedora/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.4\n"
+
+#: 01-evernight.qml:18
+msgctxt "@info:window"
+msgid "Evernight Vista New User Guide"
+msgstr ""
+
+#: 01-evernight.qml:19
+msgctxt "@info:usagetip"
+msgid ""
+"Welcome to Evernight Vista! The following tools can help you get started "
+"quickly and enhance your system experience."
+msgstr ""
+
+#: 01-evernight.qml:46
+msgctxt "@title:row"
+msgid "Driver Manager"
+msgstr ""
+
+#: 01-evernight.qml:52
+msgctxt "@info"
+msgid ""
+"Starting the driver manager can be used to install some proprietary drivers. "
+"The Evernight Vista kernel can recognize most hardware drivers, and these "
+"drivers can work automatically without installing extra drivers, but some "
+"drivers need proprietary ones to work properly or to get better performance."
+msgstr ""
+
+#: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
+msgctxt "@action:button"
+msgid "Start"
+msgstr ""
+
+#: 01-evernight.qml:89
+msgctxt "@title:row"
+msgid "Update System"
+msgstr ""
+
+#: 01-evernight.qml:95
+msgctxt "@info"
+msgid ""
+"Yumex can provide security updates, feature updates, and kernel updates for "
+"the Evernight Vista operating system, helping to maintain its security, "
+"boost performance, and add support for new hardware."
+msgstr ""
+
+#: 01-evernight.qml:132
+msgctxt "@title:row"
+msgid "System Settings"
+msgstr ""
+
+#: 01-evernight.qml:138
+msgctxt "@info"
+msgid ""
+"Open the KDE system settings, and you can set up your Evernight Vista "
+"operating system your way, like configuring peripherals and appearance."
+msgstr ""
+
+#~ msgid "Welcome to Fedora!"
+#~ msgstr "Fedora’ya hoş geldiniz!"
+
+#~ msgid "Fedora loves KDE, and KDE loves Fedora!"
+#~ msgstr "Fedora KDE’yi, KDE de Fedora’yı çok seviyor!"
+
+#~ msgctxt "@info:window"
+#~ msgid "Enable Third Party Repositories"
+#~ msgstr "Üçüncü Parti Depoları Etkinleştir"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "Fedora strongly believes in and promotes free and open source software. "
+#~ "However, proprietary software can be made available if desired.<nl/><nl/"
+#~ ">Click this button to make it possible to install a number of proprietary "
+#~ "games, applications, and graphics drivers using the Discover application "
+#~ "or the DNF package manager."
+#~ msgstr ""
+#~ "Fedora, özgür ve açık kaynaklı yazılımlara inanır ve bunları destekler. "
+#~ "Ancak, istenirse tescilli yazılımlar da kullanılabilir hale getirilebilir."
+#~ "<nl/><nl/>Bu düğmeye tıklayarak Keşfet uygulamasını veya DNF paket "
+#~ "yöneticisini kullanarak bir dizi tescilli oyun, uygulama ve grafik "
+#~ "sürücüsünü kurmayı olanaklı kılabilirsiniz."
+
+#~ msgctxt "@action:button"
+#~ msgid "See which repositories will get added"
+#~ msgstr "Hangi depoların ekleneceğini görün"
+
+#~ msgctxt "@action:button"
+#~ msgid "Learn more about Fedora's Third Party Repository Policy"
+#~ msgstr ""
+#~ "Fedora’nın üçüncü parti depolar politikası hakkında daha fazla bilgi "
+#~ "edinin"
+
+#~ msgctxt "@action:button"
+#~ msgid "Learn more about Fedora's license approval standards"
+#~ msgstr ""
+#~ "Fedora’nın lisans onaylama politikaları hakkında daha fazla bilgi edinin"
+
+#~ msgid "Enable Third Party Repositories"
+#~ msgstr "Üçüncü Parti Depoları Etkinleştir"
+
+#~ msgid "Third-Party Repositories are now being enabled in the background."
+#~ msgstr "Üçüncü parti depolar şu anda arka planda etkinleştiriliyorlar."
+
+#~ msgid "Disable Third Party Repositories"
+#~ msgstr "Üçüncü Parti Depoları Devre Dışı Bırak"
+
+#~ msgid "Third-Party Repositories are now being disabled in the background."
+#~ msgstr "Üçüncü parti depolar şu anda arka planda devre dışı bırakılıyorlar."

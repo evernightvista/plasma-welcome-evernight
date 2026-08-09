@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE plasma-welcome-fedora'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the plasma-welcome-fedora package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-welcome-fedora\n"
+"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
+"evernight/issue\n"
+"POT-Creation-Date: 2026-08-09 10:53+0800\n"
+"PO-Revision-Date: 2025-03-05 14:15+0000\n"
+"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/fedora-"
+"kde/plasma-welcome-fedora/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.10.2\n"
+
+#: 01-evernight.qml:18
+msgctxt "@info:window"
+msgid "Evernight Vista New User Guide"
+msgstr ""
+
+#: 01-evernight.qml:19
+msgctxt "@info:usagetip"
+msgid ""
+"Welcome to Evernight Vista! The following tools can help you get started "
+"quickly and enhance your system experience."
+msgstr ""
+
+#: 01-evernight.qml:46
+msgctxt "@title:row"
+msgid "Driver Manager"
+msgstr ""
+
+#: 01-evernight.qml:52
+msgctxt "@info"
+msgid ""
+"Starting the driver manager can be used to install some proprietary drivers. "
+"The Evernight Vista kernel can recognize most hardware drivers, and these "
+"drivers can work automatically without installing extra drivers, but some "
+"drivers need proprietary ones to work properly or to get better performance."
+msgstr ""
+
+#: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
+msgctxt "@action:button"
+msgid "Start"
+msgstr ""
+
+#: 01-evernight.qml:89
+msgctxt "@title:row"
+msgid "Update System"
+msgstr ""
+
+#: 01-evernight.qml:95
+msgctxt "@info"
+msgid ""
+"Yumex can provide security updates, feature updates, and kernel updates for "
+"the Evernight Vista operating system, helping to maintain its security, "
+"boost performance, and add support for new hardware."
+msgstr ""
+
+#: 01-evernight.qml:132
+msgctxt "@title:row"
+msgid "System Settings"
+msgstr ""
+
+#: 01-evernight.qml:138
+msgctxt "@info"
+msgid ""
+"Open the KDE system settings, and you can set up your Evernight Vista "
+"operating system your way, like configuring peripherals and appearance."
+msgstr ""
+
+#~ msgid "Welcome to Fedora!"
+#~ msgstr "Добро пожаловать в Fedora!"
+
+#~ msgid "Fedora loves KDE, and KDE loves Fedora!"
+#~ msgstr "Fedora любит KDE, а KDE любит Fedora!"
+
+#~ msgctxt "@info:window"
+#~ msgid "Enable Third Party Repositories"
+#~ msgstr "Включить сторонние репозитории"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "Fedora strongly believes in and promotes free and open source software. "
+#~ "However, proprietary software can be made available if desired.<nl/><nl/"
+#~ ">Click this button to make it possible to install a number of proprietary "
+#~ "games, applications, and graphics drivers using the Discover application "
+#~ "or the DNF package manager."
+#~ msgstr ""
+#~ "Fedora твердо верит в свободное и открытое программное обеспечение и "
+#~ "продвигает его. Однако, при желании, можно сделать доступным и "
+#~ "проприетарное программное обеспечение.<nl/><nl/>Нажмите эту кнопку, чтобы "
+#~ "сделать возможной установку ряда проприетарных игр, приложений и "
+#~ "графических драйверов с помощью приложения Discover или менеджера пакетов "
+#~ "DNF."
+
+#~ msgctxt "@action:button"
+#~ msgid "See which repositories will get added"
+#~ msgstr "Посмотрите, какие репозитории будут добавлены"
+
+#~ msgctxt "@action:button"
+#~ msgid "Learn more about Fedora's Third Party Repository Policy"
+#~ msgstr "Узнайте больше о политике Fedora в отношении сторонних репозиториев"
+
+#~ msgctxt "@action:button"
+#~ msgid "Learn more about Fedora's license approval standards"
+#~ msgstr "Узнайте больше о стандартах утверждения лицензий Fedora"
+
+#, fuzzy
+#~| msgctxt "@info:window"
+#~| msgid "Enable Third Party Repositories"
+#~ msgid "Enable Third Party Repositories"
+#~ msgstr "Включить сторонние репозитории"
+
+#~ msgid "Third-Party Repositories are now being enabled in the background."
+#~ msgstr "Сторонние репозитории теперь включаются в фоновом режиме."
+
+#~ msgid "Disable Third Party Repositories"
+#~ msgstr "Отключить сторонние репозитории"
+
+#~ msgid "Third-Party Repositories are now being disabled in the background."
+#~ msgstr "Сторонние репозитории теперь отключаются в фоновом режиме."
