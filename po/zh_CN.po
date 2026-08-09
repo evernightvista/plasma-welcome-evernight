@@ -1,4 +1,4 @@
-# Chinese (China) translation for plasma-welcome-evernight
+# Simplified Chinese translation for plasma-welcome-evernight.
 # Copyright (C) YEAR THE plasma-welcome-evernight'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the plasma-welcome-evernight package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -6,46 +6,45 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
-"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
-"evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 10:53+0800\n"
-"PO-Revision-Date: 2026-08-09 09:47+0800\n"
-"Last-Translator: \n"
+"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-evernight/issue\n"
+"POT-Creation-Date: 2026-08-09 12:50+0800\n"
+"PO-Revision-Date: 2026-08-09 13:10+0800\n"
+"Last-Translator: YOUR NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Evernight Vista Team <13278297951@sina.cn>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.9\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: 01-evernight.qml:18
 msgctxt "@info:window"
 msgid "Evernight Vista New User Guide"
-msgstr "Evernight Vista 新手指南"
+msgstr "Evernight Vista 新用户指南"
 
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
 msgid ""
 "Welcome to Evernight Vista! The following tools can help you get started "
 "quickly and enhance your system experience."
-msgstr "欢迎来到 Evernight Vista！以下工具可帮助您快速上手并提升系统体验。"
+msgstr ""
+"欢迎来到 Evernight Vista！以下工具可帮助您快速上手并增强系统体验。"
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
-msgstr "英伟达驱动程序管理器"
+msgstr "NVIDIA 驱动管理器"
 
 #: 01-evernight.qml:52
 msgctxt "@info"
 msgid ""
-"Starting the Nvidia Driver Manager can be used to install some proprietary drivers. "
-"The Evernight Vista kernel can recognize most hardware drivers, and these "
-"drivers can work automatically without installing extra drivers, but some "
-"drivers need proprietary ones to work properly or to get better performance."
+"If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
+"install drivers. The Evernight Vista kernel can recognize most hardware "
+"drivers, and these drivers can work automatically without installing extra "
+"drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
+"better performance."
 msgstr ""
-"启动驱动程序管理器可用于安装一些专有驱动程序。Evernight Vista 内核能够识别大"
-"多数硬件驱动程序，这些驱动程序无需安装额外驱动即可自动工作，但部分驱动程序需"
-"要专有驱动才能正常工作或获得更好性能。"
+"如果您有 NVIDIA 显卡，请使用 NVIDIA 驱动管理器来安装驱动。Evernight Vista 内核能识别大部分硬件驱动，这些驱动无需额外安装即可自动工作，但 NVIDIA 驱动需要专有驱动才能正常工作或获得更好的性能。"
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
 msgctxt "@action:button"
@@ -64,8 +63,7 @@ msgid ""
 "the Evernight Vista operating system, helping to maintain its security, "
 "boost performance, and add support for new hardware."
 msgstr ""
-"Yumex 可为 Evernight Vista 操作系统提供安全更新、功能更新和内核更新，有助于维"
-"护系统安全、提升性能并增加对新硬件的支持。"
+"Yumex 可为 Evernight Vista 操作系统提供安全更新、功能更新和内核更新，有助于保持系统安全、提升性能并增加对新硬件的支持。"
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"
@@ -78,5 +76,4 @@ msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
-"打开 KDE 系统设置，您可以按自己的方式配置 Evernight Vista 操作系统，例如配置"
-"外设和外观。"
+"打开 KDE 系统设置，您可以根据自己的方式配置 Evernight Vista 操作系统，例如配置外设和外观。"
