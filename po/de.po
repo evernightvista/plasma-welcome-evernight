@@ -1,4 +1,4 @@
-# German translation for plasma-welcome-evernight
+# German translation for plasma-welcome-evernight.
 # Copyright (C) YEAR THE plasma-welcome-evernight'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the plasma-welcome-evernight package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -6,17 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
-"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
-"evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 10:53+0800\n"
-"PO-Revision-Date: 2026-08-09 11:00+0800\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-evernight/issue\n"
+"POT-Creation-Date: 2026-08-09 12:24+0800\n"
+"PO-Revision-Date: 2026-08-09 13:00+0800\n"
+"Last-Translator: YOUR NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Evernight Vista Team <13278297951@sina.cn>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 01-evernight.qml:18
 msgctxt "@info:window"
@@ -29,33 +28,28 @@ msgid ""
 "Welcome to Evernight Vista! The following tools can help you get started "
 "quickly and enhance your system experience."
 msgstr ""
-"Willkommen bei Evernight Vista! Die folgenden Werkzeuge helfen Ihnen, "
-"schnell loszulegen und Ihre Systemerfahrung zu verbessern."
+"Willkommen bei Evernight Vista! Die folgenden Tools helfen Ihnen, schnell zu starten und Ihr Systemerlebnis zu verbessern."
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
-msgid "Driver Manager"
-msgstr "Treibermanager"
+msgid " Nvidia Driver Manager"
+msgstr "NVIDIA-Treiber-Manager"
 
 #: 01-evernight.qml:52
 msgctxt "@info"
 msgid ""
-"Starting the driver manager can be used to install some proprietary drivers. "
-"The Evernight Vista kernel can recognize most hardware drivers, and these "
-"drivers can work automatically without installing extra drivers, but some "
-"drivers need proprietary ones to work properly or to get better performance."
+"If you nvidia graphics card,you would better start the nvidia driver manager "
+"can be used to install nvidia drivers. The Evernight Vista kernel can "
+"recognize most hardware drivers, and these drivers can work automatically "
+"without installing extra drivers, but nvidia drivers need proprietary ones "
+"to work properly or to get better performance."
 msgstr ""
-"Der Start des Treibermanagers kann verwendet werden, um einige proprietäre "
-"Treiber zu installieren. Der Evernight-Vista-Kernel erkennt die meisten "
-"Hardwaretreiber, und diese Treiber können automatisch funktionieren, ohne "
-"zusätzliche Treiber zu installieren. Einige Treiber benötigen jedoch "
-"proprietäre Treiber, um ordnungsgemäß zu funktionieren oder eine bessere "
-"Leistung zu erzielen."
+"Wenn Sie eine NVIDIA-Grafikkarte besitzen, sollten Sie den NVIDIA-Treiber-Manager starten, um Treiber zu installieren. Der Evernight-Vista-Kernel erkennt die meisten Hardware-Treiber, die ohne zusätzliche Installation automatisch funktionieren. Für NVIDIA-Treiber sind jedoch proprietäre Treiber erforderlich, um ordnungsgemäß zu funktionieren oder eine bessere Leistung zu erzielen."
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
 msgctxt "@action:button"
 msgid "Start"
-msgstr "Start"
+msgstr "Starten"
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
@@ -69,10 +63,7 @@ msgid ""
 "the Evernight Vista operating system, helping to maintain its security, "
 "boost performance, and add support for new hardware."
 msgstr ""
-"Yumex kann Sicherheitsaktualisierungen, Funktionsaktualisierungen und "
-"Kernelaktualisierungen für das Betriebssystem Evernight Vista bereitstellen, "
-"was zur Aufrechterhaltung der Sicherheit, zur Leistungssteigerung und zur "
-"Unterstützung neuer Hardware beiträgt."
+"Yumex bietet Sicherheitsupdates, Funktionsupdates und Kernel-Updates für das Betriebssystem Evernight Vista an, trägt zur Sicherheit bei, steigert die Leistung und fügt Unterstützung für neue Hardware hinzu."
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"
@@ -85,6 +76,4 @@ msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
-"Öffnen Sie die KDE-Systemeinstellungen, und Sie können Ihr Evernight-Vista-"
-"Betriebssystem nach Ihren Wünschen einrichten, z. B. Peripheriegeräte und "
-"das Erscheinungsbild konfigurieren."
+"Öffnen Sie die KDE-Systemeinstellungen, um Ihr Evernight-Vista-Betriebssystem nach Ihren Wünschen einzurichten, z. B. Peripheriegeräte und Erscheinungsbild zu konfigurieren."

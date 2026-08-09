@@ -43,13 +43,13 @@ Page {
                     spacing: Kirigami.Units.smallSpacing
 
                     Kirigami.Heading {
-                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Driver Manager")
+                        text: i18ndc("plasma-welcome-evernight", "@title:row", " Nvidia Driver Manager")
                         level: 3
                         wrapMode: Text.WordWrap
                     }
 
                     QQC2.Label {
-                        text: xi18ndc("plasma-welcome-evernight", "@info", "Starting the driver manager can be used to install some proprietary drivers. The Evernight Vista kernel can recognize most hardware drivers, and these drivers can work automatically without installing extra drivers, but some drivers need proprietary ones to work properly or to get better performance.")
+                        text: xi18ndc("plasma-welcome-evernight", "@info", "If you nvidia graphics card,you would better start the nvidia driver manager can be used to install nvidia drivers. The Evernight Vista kernel can recognize most hardware drivers, and these drivers can work automatically without installing extra drivers, but nvidia drivers need proprietary ones to work properly or to get better performance.")
                         wrapMode: Text.WordWrap
                         Layout.fillWidth: true
                     }

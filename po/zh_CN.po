@@ -32,13 +32,13 @@ msgstr "欢迎来到 Evernight Vista！以下工具可帮助您快速上手并�
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
-msgid "Driver Manager"
-msgstr "驱动程序管理器"
+msgid "Nvidia Driver Manager"
+msgstr "英伟达驱动程序管理器"
 
 #: 01-evernight.qml:52
 msgctxt "@info"
 msgid ""
-"Starting the driver manager can be used to install some proprietary drivers. "
+"Starting the Nvidia Driver Manager can be used to install some proprietary drivers. "
 "The Evernight Vista kernel can recognize most hardware drivers, and these "
 "drivers can work automatically without installing extra drivers, but some "
 "drivers need proprietary ones to work properly or to get better performance."
