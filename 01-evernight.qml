@@ -188,7 +188,6 @@ Page {
                     text: i18ndc("plasma-welcome-evernight", "@action:button", "Start")
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     onClicked: {
-                        // 尝试启动 KDE 软件源配置工具（若系统中存在）
                         Controller.launchApp("evernight-vista-repo-gui");
                     }
                 }
