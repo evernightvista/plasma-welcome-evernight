@@ -1,26 +1,27 @@
-# Korean translation for plasma-welcome-evernight.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE plasma-welcome-evernight'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the plasma-welcome-evernight package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
-"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 12:50+0800\n"
-"PO-Revision-Date: 2026-08-09 13:10+0800\n"
-"Last-Translator: YOUR NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Evernight Vista Team <13278297951@sina.cn>\n"
+"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
+"evernight/issue\n"
+"POT-Creation-Date: 2026-08-11 14:16+0800\n"
+"PO-Revision-Date: 2026-08-11 14:16+0800\n"
+"Last-Translator: 번역자 <EMAIL@ADDRESS>\n"
+"Language-Team: KairikiFedora Software Team <13278297951@sina.cn>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: 01-evernight.qml:18
 msgctxt "@info:window"
 msgid "Evernight Vista New User Guide"
-msgstr "Evernight Vista 신규 사용자 안내"
+msgstr "Evernight Vista 신규 사용자 가이드"
 
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
@@ -44,9 +45,12 @@ msgid ""
 "drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
 "better performance."
 msgstr ""
-"NVIDIA 그래픽 카드가 있는 경우 NVIDIA 드라이버 관리자를 사용하여 드라이버를 설치하세요. Evernight Vista 커널은 대부분의 하드웨어 드라이버를 인식할 수 있으며, 추가 드라이버를 설치하지 않아도 자동으로 작동하지만, NVIDIA 드라이버는 제대로 작동하거나 더 나은 성능을 얻으려면 독점 드라이버가 필요합니다."
+"NVIDIA 그래픽 카드가 있는 경우 NVIDIA 드라이버 관리자를 사용하여 드라이버를 설치하십시오. "
+"Evernight Vista 커널은 대부분의 하드웨어 드라이버를 인식할 수 있으며, 이러한 드라이버는 추가 설치 없이 자동으로 작동하지만, "
+"NVIDIA 드라이버는 제대로 작동하거나 더 나은 성능을 얻으려면 독점 드라이버가 필요합니다."
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
+#: 01-evernight.qml:188
 msgctxt "@action:button"
 msgid "Start"
 msgstr "시작"
@@ -63,7 +67,8 @@ msgid ""
 "the Evernight Vista operating system, helping to maintain its security, "
 "boost performance, and add support for new hardware."
 msgstr ""
-"Yumex는 Evernight Vista 운영 체제에 보안 업데이트, 기능 업데이트 및 커널 업데이트를 제공하여 보안 유지, 성능 향상 및 새로운 하드웨어 지원 추가에 도움을 줍니다."
+"Yumex는 Evernight Vista 운영 체제에 보안 업데이트, 기능 업데이트 및 커널 업데이트를 제공하여 "
+"시스템 보안 유지, 성능 향상 및 새 하드웨어 지원 추가에 도움을 줍니다."
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"
@@ -76,4 +81,16 @@ msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
-"KDE 시스템 설정을 열면 주변 장치 및 모양 구성 등 Evernight Vista 운영 체제를 원하는 방식으로 설정할 수 있습니다."
+"KDE 시스템 설정을 열면 주변 장치 및 외관 구성과 같이 Evernight Vista 운영 체제를 원하는 방식으로 설정할 수 있습니다."
+
+#: 01-evernight.qml:175
+msgctxt "@title:row"
+msgid "Repository Manager"
+msgstr "저장소 관리자"
+
+#: 01-evernight.qml:181
+msgctxt "@info"
+msgid ""
+"Changing the software source can get you faster download speeds, which can "
+"help reduce update time."
+msgstr "소프트웨어 소스를 변경하면 더 빠른 다운로드 속도를 얻을 수 있어 업데이트 시간을 단축하는 데 도움이 됩니다."

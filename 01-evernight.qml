@@ -150,5 +150,49 @@ Page {
                 }
             }
         }
+
+        // ----- 4. 软件源 (新增) -----
+        Kirigami.CardsLayout {
+            Layout.fillWidth: true
+            implicitHeight: root.cardHeight
+
+            RowLayout {
+                Layout.fillWidth: true
+                Layout.margins: Kirigami.Units.largeSpacing
+                spacing: Kirigami.Units.largeSpacing
+
+                Kirigami.Icon {
+                    source: "gpk-repo"   // 图标表示软件源/包管理
+                    Layout.preferredWidth: Kirigami.Units.iconSizes.huge
+                    Layout.preferredHeight: Kirigami.Units.iconSizes.huge
+                }
+
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    spacing: Kirigami.Units.smallSpacing
+
+                    Kirigami.Heading {
+                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Repository Manager")
+                        level: 3
+                        wrapMode: Text.WordWrap
+                    }
+
+                    QQC2.Label {
+                        text: i18ndc("plasma-welcome-evernight", "@info", "Changing the software source can get you faster download speeds, which can help reduce update time.")
+                        wrapMode: Text.WordWrap
+                        Layout.fillWidth: true
+                    }
+                }
+
+                QQC2.Button {
+                    text: i18ndc("plasma-welcome-evernight", "@action:button", "Start")
+                    Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
+                    onClicked: {
+                        // 尝试启动 KDE 软件源配置工具（若系统中存在）
+                        Controller.launchApp("evernight-vista-repo-gui");
+                    }
+                }
+            }
+        }
     }
 }

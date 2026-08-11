@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-fedora\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 12:24+0800\n"
+"POT-Creation-Date: 2026-08-09 12:50+0800\n"
 "PO-Revision-Date: 2025-03-21 04:16+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -35,17 +35,17 @@ msgstr ""
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
-msgid " Nvidia Driver Manager"
+msgid "Nvidia Driver Manager"
 msgstr ""
 
 #: 01-evernight.qml:52
 msgctxt "@info"
 msgid ""
-"If you nvidia graphics card,you would better start the nvidia driver manager "
-"can be used to install nvidia drivers. The Evernight Vista kernel can "
-"recognize most hardware drivers, and these drivers can work automatically "
-"without installing extra drivers, but nvidia drivers need proprietary ones "
-"to work properly or to get better performance."
+"If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
+"install drivers. The Evernight Vista kernel can recognize most hardware "
+"drivers, and these drivers can work automatically without installing extra "
+"drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
+"better performance."
 msgstr ""
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145

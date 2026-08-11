@@ -1,30 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE plasma-welcome-fedora'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the plasma-welcome-fedora package.
+# Copyright (C) YEAR THE plasma-welcome-evernight'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the plasma-welcome-evernight package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-welcome-fedora\n"
+"Project-Id-Version: plasma-welcome-evernight\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 12:50+0800\n"
-"PO-Revision-Date: 2025-03-24 23:53+0000\n"
-"Last-Translator: ButterflyOfFire "
-"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
-"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/fedora-"
-"kde/plasma-welcome-fedora/kab/>\n"
-"Language: kab\n"
+"POT-Creation-Date: 2026-08-11 14:16+0800\n"
+"PO-Revision-Date: 2026-08-11 14:16+0800\n"
+"Last-Translator: 翻譯者 <EMAIL@ADDRESS>\n"
+"Language-Team: KairikiFedora Software Team <13278297951@sina.cn>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
 
 #: 01-evernight.qml:18
 msgctxt "@info:window"
 msgid "Evernight Vista New User Guide"
-msgstr ""
+msgstr "Evernight Vista 新使用者指南"
 
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
@@ -32,11 +29,12 @@ msgid ""
 "Welcome to Evernight Vista! The following tools can help you get started "
 "quickly and enhance your system experience."
 msgstr ""
+"歡迎來到 Evernight Vista！以下工具可協助您快速上手並提升系統使用體驗。"
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
-msgstr ""
+msgstr "NVIDIA 驅動程式管理員"
 
 #: 01-evernight.qml:52
 msgctxt "@info"
@@ -47,16 +45,19 @@ msgid ""
 "drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
 "better performance."
 msgstr ""
+"如果您擁有 NVIDIA 顯示卡，請使用 NVIDIA 驅動程式管理員來安裝驅動程式。Evernight Vista 核心能夠辨識大多數硬體驅動程式，"
+"這些驅動程式無需額外安裝即可自動運作，但 NVIDIA 驅動程式需要專有驅動才能正常運作或獲得較佳效能。"
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
+#: 01-evernight.qml:188
 msgctxt "@action:button"
 msgid "Start"
-msgstr ""
+msgstr "啟動"
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
 msgid "Update System"
-msgstr ""
+msgstr "更新系統"
 
 #: 01-evernight.qml:95
 msgctxt "@info"
@@ -65,11 +66,12 @@ msgid ""
 "the Evernight Vista operating system, helping to maintain its security, "
 "boost performance, and add support for new hardware."
 msgstr ""
+"Yumex 可為 Evernight Vista 作業系統提供安全性更新、功能更新和核心更新，有助於維護系統安全、提升效能並增加對新硬體的支援。"
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr ""
+msgstr "系統設定"
 
 #: 01-evernight.qml:138
 msgctxt "@info"
@@ -77,19 +79,16 @@ msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
+"開啟 KDE 系統設定，您可以依照自己的方式設定 Evernight Vista 作業系統，例如設定周邊裝置和外觀。"
 
-#~ msgid "Welcome to Fedora!"
-#~ msgstr "Ansuf ɣer Fedora!"
+#: 01-evernight.qml:175
+msgctxt "@title:row"
+msgid "Repository Manager"
+msgstr "軟體倉儲管理員"
 
-#~ msgid "Fedora loves KDE, and KDE loves Fedora!"
-#~ msgstr "Fedora tḥemmel KDE, yerna KDE tḥemmel Fedora!"
-
-#~ msgctxt "@info:window"
-#~ msgid "Enable Third Party Repositories"
-#~ msgstr "Rmed ikufiyen n wis kraḍ"
-
-#~ msgid "Enable Third Party Repositories"
-#~ msgstr "Rmed ikufiyen n wis kraḍ"
-
-#~ msgid "Disable Third Party Repositories"
-#~ msgstr "Sens ikufiyen n wis kraḍ"
+#: 01-evernight.qml:181
+msgctxt "@info"
+msgid ""
+"Changing the software source can get you faster download speeds, which can "
+"help reduce update time."
+msgstr "更換軟體來源可獲得更快的下載速度，有助於縮短更新時間。"

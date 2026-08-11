@@ -1,21 +1,22 @@
-# German translation for plasma-welcome-evernight.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE plasma-welcome-evernight'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the plasma-welcome-evernight package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
-"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 12:50+0800\n"
-"PO-Revision-Date: 2026-08-09 13:10+0800\n"
-"Last-Translator: YOUR NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Evernight Vista Team <13278297951@sina.cn>\n"
+"Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
+"evernight/issue\n"
+"POT-Creation-Date: 2026-08-11 14:16+0800\n"
+"PO-Revision-Date: 2026-08-11 14:16+0800\n"
+"Last-Translator: Übersetzer <EMAIL@ADDRESS>\n"
+"Language-Team: KairikiFedora Software Team <13278297951@sina.cn>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 01-evernight.qml:18
 msgctxt "@info:window"
@@ -28,12 +29,12 @@ msgid ""
 "Welcome to Evernight Vista! The following tools can help you get started "
 "quickly and enhance your system experience."
 msgstr ""
-"Willkommen bei Evernight Vista! Die folgenden Tools helfen Ihnen, schnell zu starten und Ihr Systemerlebnis zu verbessern."
+"Willkommen bei Evernight Vista! Die folgenden Tools helfen Ihnen, schnell loszulegen und Ihre Systemerfahrung zu verbessern."
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
-msgstr "NVIDIA-Treiber-Manager"
+msgstr "NVIDIA-Treibermanager"
 
 #: 01-evernight.qml:52
 msgctxt "@info"
@@ -44,9 +45,12 @@ msgid ""
 "drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
 "better performance."
 msgstr ""
-"Wenn Sie eine NVIDIA-Grafikkarte besitzen, verwenden Sie den NVIDIA-Treiber-Manager, um Treiber zu installieren. Der Evernight-Vista-Kernel erkennt die meisten Hardware-Treiber, die ohne zusätzliche Installation automatisch funktionieren. Für NVIDIA-Treiber sind jedoch proprietäre Treiber erforderlich, um ordnungsgemäß zu funktionieren oder eine bessere Leistung zu erzielen."
+"Wenn Sie eine NVIDIA-Grafikkarte besitzen, verwenden Sie den NVIDIA-Treibermanager, um Treiber zu installieren. "
+"Der Evernight-Vista-Kernel kann die meisten Hardware-Treiber erkennen, und diese Treiber können ohne zusätzliche Installation automatisch funktionieren, "
+"aber NVIDIA-Treiber benötigen proprietäre Treiber, um ordnungsgemäß zu funktionieren oder eine bessere Leistung zu erzielen."
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
+#: 01-evernight.qml:188
 msgctxt "@action:button"
 msgid "Start"
 msgstr "Starten"
@@ -63,7 +67,8 @@ msgid ""
 "the Evernight Vista operating system, helping to maintain its security, "
 "boost performance, and add support for new hardware."
 msgstr ""
-"Yumex bietet Sicherheitsupdates, Funktionsupdates und Kernel-Updates für das Betriebssystem Evernight Vista an, trägt zur Sicherheit bei, steigert die Leistung und fügt Unterstützung für neue Hardware hinzu."
+"Yumex kann Sicherheitsupdates, Funktionsupdates und Kernel-Updates für das Betriebssystem Evernight Vista bereitstellen, "
+"was zur Aufrechterhaltung der Sicherheit, Leistungssteigerung und Unterstützung neuer Hardware beiträgt."
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"
@@ -76,4 +81,17 @@ msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
-"Öffnen Sie die KDE-Systemeinstellungen, um Ihr Evernight-Vista-Betriebssystem nach Ihren Wünschen einzurichten, z. B. Peripheriegeräte und Erscheinungsbild zu konfigurieren."
+"Öffnen Sie die KDE-Systemeinstellungen, und Sie können Ihr Evernight-Vista-Betriebssystem nach Ihren Wünschen einrichten, "
+"z. B. Peripheriegeräte und das Erscheinungsbild konfigurieren."
+
+#: 01-evernight.qml:175
+msgctxt "@title:row"
+msgid "Repository Manager"
+msgstr "Repository-Manager"
+
+#: 01-evernight.qml:181
+msgctxt "@info"
+msgid ""
+"Changing the software source can get you faster download speeds, which can "
+"help reduce update time."
+msgstr "Durch Ändern der Softwarequelle können Sie schnellere Download-Geschwindigkeiten erreichen, was zur Verkürzung der Aktualisierungszeit beitragen kann."
