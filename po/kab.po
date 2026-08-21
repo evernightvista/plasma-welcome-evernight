@@ -29,9 +29,11 @@ msgstr ""
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
 msgid ""
-"Welcome to Evernight Vista! The following tools can help you get started "
-"quickly and enhance your system experience."
+"The following tools can help you get started quickly and enhance your system "
+"experience."
 msgstr ""
+"Ifecka-a d yitranen i k-yellan atan ad ak-d-yefken tazwara akked usnifel n "
+"tarmit-ik n unagraw."
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
@@ -55,16 +57,23 @@ msgstr ""
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
-msgid "Update System"
-msgstr ""
+msgid "Install Software & Update System"
+msgstr "Sebded asseɣlaw u senqed anagraw"
 
 #: 01-evernight.qml:95
 msgctxt "@info"
 msgid ""
-"Yumex can provide security updates, feature updates, and kernel updates for "
-"the Evernight Vista operating system, helping to maintain its security, "
-"boost performance, and add support for new hardware."
+"Miryu Package Manager can provide security updates, feature updates, and "
+"kernel updates for the Evernight Vista operating system, helping to maintain "
+"its security, boost performance, and add support for new hardware. In "
+"addition, you can also install software from flatpak and linyaps in the Miryu "
+"Package Manager."
 msgstr ""
+"Miryu Package Manager yezmer ad d-yefk ileqman n tterkilt, ileqman n tmahilin "
+"d ileqman n yibelgen i unagraw n wammel Evernight Vista, ay d-yettallen ad "
+"yefk lehhu i tterkilt-ines, ad yesnifel tamɣilt-ines ad yernu tallelt i "
+"warrum amaynut. Daɣen, tzemreḍ ad tesbeddeḍ aseɣlaw si flatpak akked linyaps "
+"deg Miryu Package Manager."
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"

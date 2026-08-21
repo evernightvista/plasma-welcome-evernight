@@ -27,9 +27,9 @@ msgstr "Evernight Vista 新手指南"
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
 msgid ""
-"Welcome to Evernight Vista! The following tools can help you get started "
-"quickly and enhance your system experience."
-msgstr "欢迎来到 Evernight Vista！以下工具可帮助您快速上手并提升系统使用体验。"
+"The following tools can help you get started quickly and enhance your system "
+"experience."
+msgstr "以下工具可帮助您快速上手并提升系统使用体验。"
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
@@ -57,18 +57,21 @@ msgstr "启动"
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
-msgid "Update System"
-msgstr "更新系统"
+msgid "Install Software & Update System"
+msgstr "安装软件与更新系统"
 
 #: 01-evernight.qml:95
 msgctxt "@info"
 msgid ""
-"Yumex can provide security updates, feature updates, and kernel updates for "
-"the Evernight Vista operating system, helping to maintain its security, "
-"boost performance, and add support for new hardware."
+"Miryu Package Manager can provide security updates, feature updates, and "
+"kernel updates for the Evernight Vista operating system, helping to maintain "
+"its security, boost performance, and add support for new hardware. In "
+"addition, you can also install software from flatpak and linyaps in the Miryu "
+"Package Manager."
 msgstr ""
-"Yumex 可为 Evernight Vista 操作系统提供安全更新、功能更新和内核更新，有助于维"
-"护系统安全、提升性能并增加对新硬件的支持。"
+"Miryu 软件包管理器可为 Evernight Vista 操作系统提供安全更新、功能更新和内核更"
+"新，有助于维护系统安全、提升性能并增加对新硬件的支持。此外，您还可以在 Miryu "
+"软件包管理器中从 Flatpak 和玲珑安装软件。"
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"

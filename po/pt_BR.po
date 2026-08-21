@@ -29,9 +29,11 @@ msgstr ""
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
 msgid ""
-"Welcome to Evernight Vista! The following tools can help you get started "
-"quickly and enhance your system experience."
+"The following tools can help you get started quickly and enhance your system "
+"experience."
 msgstr ""
+"As ferramentas a seguir podem ajudá-lo a começar rapidamente e aprimorar sua "
+"experiência com o sistema."
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
@@ -55,16 +57,23 @@ msgstr ""
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
-msgid "Update System"
-msgstr ""
+msgid "Install Software & Update System"
+msgstr "Instalar software e atualizar o sistema"
 
 #: 01-evernight.qml:95
 msgctxt "@info"
 msgid ""
-"Yumex can provide security updates, feature updates, and kernel updates for "
-"the Evernight Vista operating system, helping to maintain its security, "
-"boost performance, and add support for new hardware."
+"Miryu Package Manager can provide security updates, feature updates, and "
+"kernel updates for the Evernight Vista operating system, helping to maintain "
+"its security, boost performance, and add support for new hardware. In "
+"addition, you can also install software from flatpak and linyaps in the Miryu "
+"Package Manager."
 msgstr ""
+"O Miryu Package Manager pode fornecer atualizações de segurança, "
+"atualizações de recursos e atualizações de kernel para o sistema operacional "
+"Evernight Vista, ajudando a manter sua segurança, melhorar o desempenho e "
+"adicionar suporte para novo hardware. Além disso, você também pode instalar "
+"software de flatpak e linyaps no Miryu Package Manager."
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"

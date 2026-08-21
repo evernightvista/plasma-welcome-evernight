@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-08-11 14:16+0800\n"
+"POT-Creation-Date: 2026-08-21 15:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,8 +26,8 @@ msgstr ""
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
 msgid ""
-"Welcome to Evernight Vista! The following tools can help you get started "
-"quickly and enhance your system experience."
+"The following tools can help you get started quickly and enhance your system "
+"experience."
 msgstr ""
 
 #: 01-evernight.qml:46
@@ -53,15 +53,17 @@ msgstr ""
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
-msgid "Update System"
+msgid "Install Software & Update System"
 msgstr ""
 
 #: 01-evernight.qml:95
 msgctxt "@info"
 msgid ""
-"Yumex can provide security updates, feature updates, and kernel updates for "
-"the Evernight Vista operating system, helping to maintain its security, "
-"boost performance, and add support for new hardware."
+"Miryu Package Manager can provide security updates, feature updates, and "
+"kernel updates for the Evernight Vista operating system, helping to maintain "
+"its security, boost performance, and add support for new hardware. In "
+"addition, you can also install software from flatpak and linyaps in the Miryu "
+"Package Manager."
 msgstr ""
 
 #: 01-evernight.qml:132

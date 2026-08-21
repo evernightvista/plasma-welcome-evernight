@@ -26,10 +26,11 @@ msgstr "Guide du nouvel utilisateur d'Evernight Vista"
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
 msgid ""
-"Welcome to Evernight Vista! The following tools can help you get started "
-"quickly and enhance your system experience."
+"The following tools can help you get started quickly and enhance your system "
+"experience."
 msgstr ""
-"Bienvenue sur Evernight Vista ! Les outils suivants peuvent vous aider à démarrer rapidement et à améliorer votre expérience système."
+"Les outils suivants peuvent vous aider à démarrer rapidement et à améliorer "
+"votre expérience système."
 
 #: 01-evernight.qml:46
 msgctxt "@title:row"
@@ -57,18 +58,24 @@ msgstr "Démarrer"
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
-msgid "Update System"
-msgstr "Mettre à jour le système"
+msgid "Install Software & Update System"
+msgstr "Installer des logiciels et mettre à jour le système"
 
 #: 01-evernight.qml:95
 msgctxt "@info"
 msgid ""
-"Yumex can provide security updates, feature updates, and kernel updates for "
-"the Evernight Vista operating system, helping to maintain its security, "
-"boost performance, and add support for new hardware."
+"Miryu Package Manager can provide security updates, feature updates, and "
+"kernel updates for the Evernight Vista operating system, helping to maintain "
+"its security, boost performance, and add support for new hardware. In "
+"addition, you can also install software from flatpak and linyaps in the Miryu "
+"Package Manager."
 msgstr ""
-"Yumex peut fournir des mises à jour de sécurité, des mises à jour de fonctionnalités et des mises à jour du noyau pour le système d'exploitation Evernight Vista, "
-"contribuant ainsi à maintenir sa sécurité, à améliorer ses performances et à ajouter la prise en charge de nouveaux matériels."
+"Miryu Package Manager peut fournir des mises à jour de sécurité, des mises "
+"à jour de fonctionnalités et des mises à jour du noyau pour le système "
+"d'exploitation Evernight Vista, contribuant ainsi à maintenir sa sécurité, à "
+"améliorer ses performances et à ajouter la prise en charge de nouveaux "
+"matériels. De plus, vous pouvez également installer des logiciels depuis "
+"Flatpak et Linglong dans Miryu Package Manager."
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"

@@ -16,7 +16,7 @@ Page {
     readonly property int cardHeight: Kirigami.Units.gridUnit * 8
 
     heading: i18ndc("plasma-welcome-evernight", "@info:window", "Evernight Vista New User Guide")
-    description: xi18ndc("plasma-welcome-evernight", "@info:usagetip", "Welcome to Evernight Vista! The following tools can help you get started quickly and enhance your system experience.")
+    description: xi18ndc("plasma-welcome-evernight", "@info:usagetip", "The following tools can help you get started quickly and enhance your system experience.")
 
     ColumnLayout {
         anchors.fill: parent
@@ -65,7 +65,7 @@ Page {
             }
         }
 
-        // ----- 2. Yumex (更新系统) -----
+        // ----- 2. Miryu Package Manager (更新系统) -----
         Kirigami.CardsLayout {
             Layout.fillWidth: true
             implicitHeight: root.cardHeight
@@ -76,7 +76,7 @@ Page {
                 spacing: Kirigami.Units.largeSpacing
 
                 Kirigami.Icon {
-                    source: "system-software-update"
+                    source: "system-software-install"
                     Layout.preferredWidth: Kirigami.Units.iconSizes.huge
                     Layout.preferredHeight: Kirigami.Units.iconSizes.huge
                 }
@@ -86,13 +86,13 @@ Page {
                     spacing: Kirigami.Units.smallSpacing
 
                     Kirigami.Heading {
-                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Update System")
+                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Install Software & Update System")
                         level: 3
                         wrapMode: Text.WordWrap
                     }
 
                     QQC2.Label {
-                        text: xi18ndc("plasma-welcome-evernight", "@info", "Yumex can provide security updates, feature updates, and kernel updates for the Evernight Vista operating system, helping to maintain its security, boost performance, and add support for new hardware.")
+                        text: xi18ndc("plasma-welcome-evernight", "@info", "Miryu Package Manager can provide security updates, feature updates, and kernel updates for the Evernight Vista operating system, helping to maintain its security, boost performance, and add support for new hardware.In addition, you can also install software from flatpak and linyaps in the Miryu Package Manager.")
                         wrapMode: Text.WordWrap
                         Layout.fillWidth: true
                     }
@@ -102,7 +102,7 @@ Page {
                     text: i18ndc("plasma-welcome-evernight", "@action:button", "Start")
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     onClicked: {
-                        Controller.launchApp("dk.yumex.Yumex");
+                        Controller.launchApp("org.miryu.PackageManager");
                     }
                 }
             }
