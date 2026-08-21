@@ -92,7 +92,7 @@ Page {
                     }
 
                     QQC2.Label {
-                        text: xi18ndc("plasma-welcome-evernight", "@info", "Miryu Package Manager can provide security updates, feature updates, and kernel updates for the Evernight Vista operating system, helping to maintain its security, boost performance, and add support for new hardware.In addition, you can also install software from flatpak and linyaps in the Miryu Package Manager.")
+                        text: xi18ndc("plasma-welcome-evernight", "@info", "Miryu Package Manager can provide security updates, feature updates, and kernel updates for the Evernight Vista operating system, helping to maintain its security, boost performance, and add support for new hardware. In addition, you can also install software from flatpak and linyaps in the Miryu Package Manager.")
                         wrapMode: Text.WordWrap
                         Layout.fillWidth: true
                     }
