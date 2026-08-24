@@ -76,7 +76,7 @@ Page {
                 spacing: Kirigami.Units.largeSpacing
 
                 Kirigami.Icon {
-                    source: "system-software-install"
+                    source: "miryu-package-manager"
                     Layout.preferredWidth: Kirigami.Units.iconSizes.huge
                     Layout.preferredHeight: Kirigami.Units.iconSizes.huge
                 }
