@@ -188,7 +188,7 @@ Page {
                     text: i18ndc("plasma-welcome-evernight", "@action:button", "Start")
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     onClicked: {
-                        Controller.launchApp("evernight-vista-repo-gui");
+                        Controller.launchApp("miryu-repo-gui");
                     }
                 }
             }
