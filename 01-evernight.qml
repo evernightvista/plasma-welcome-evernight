@@ -162,7 +162,7 @@ Page {
                 spacing: Kirigami.Units.largeSpacing
 
                 Kirigami.Icon {
-                    source: "gpk-repo"   // 图标表示软件源/包管理
+                    source: "btrfs-assistant"   // 图标表示软件源/包管理
                     Layout.preferredWidth: Kirigami.Units.iconSizes.huge
                     Layout.preferredHeight: Kirigami.Units.iconSizes.huge
                 }
@@ -172,13 +172,13 @@ Page {
                     spacing: Kirigami.Units.smallSpacing
 
                     Kirigami.Heading {
-                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Repository Manager")
+                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Btrfs Assistant")
                         level: 3
                         wrapMode: Text.WordWrap
                     }
 
                     QQC2.Label {
-                        text: i18ndc("plasma-welcome-evernight", "@info", "Changing the software source can get you faster download speeds, which can help reduce update time.")
+                        text: i18ndc("plasma-welcome-evernight", "@info", "Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can help you easily roll back the system in case of problems after updating or other issues.")
                         wrapMode: Text.WordWrap
                         Layout.fillWidth: true
                     }
@@ -188,7 +188,7 @@ Page {
                     text: i18ndc("plasma-welcome-evernight", "@action:button", "Start")
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     onClicked: {
-                        Controller.launchApp("miryu-repo-gui");
+                        Controller.launchApp("btrfs-assistant");
                     }
                 }
             }

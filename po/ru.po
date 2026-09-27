@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-fedora\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 12:50+0800\n"
+"POT-Creation-Date: 2026-09-27 03:08+0000\n"
 "PO-Revision-Date: 2025-03-05 14:15+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/fedora-"
@@ -24,7 +24,7 @@ msgstr ""
 #: 01-evernight.qml:18
 msgctxt "@info:window"
 msgid "Evernight Vista New User Guide"
-msgstr ""
+msgstr "Руководство нового пользователя Evernight Vista"
 
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
@@ -38,7 +38,7 @@ msgstr ""
 #: 01-evernight.qml:46
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
-msgstr ""
+msgstr "Менеджер драйверов Nvidia"
 
 #: 01-evernight.qml:52
 msgctxt "@info"
@@ -49,11 +49,18 @@ msgid ""
 "drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
 "better performance."
 msgstr ""
+"Если у вас графическая карта NVIDIA, используйте Менеджер драйверов NVIDIA "
+"для установки драйверов. Ядро Evernight Vista способно распознать "
+"большинство драйверов оборудования, и эти драйверы могут работать "
+"автоматически без установки дополнительных драйверов, но драйверам NVIDIA "
+"требуются проприетарные, чтобы работать надлежащим образом или добиться "
+"лучшей производительности."
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
+#: 01-evernight.qml:188
 msgctxt "@action:button"
 msgid "Start"
-msgstr ""
+msgstr "Запустить"
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
@@ -66,8 +73,8 @@ msgid ""
 "Miryu Package Manager can provide security updates, feature updates, and "
 "kernel updates for the Evernight Vista operating system, helping to maintain "
 "its security, boost performance, and add support for new hardware. In "
-"addition, you can also install software from flatpak and linyaps in the Miryu "
-"Package Manager."
+"addition, you can also install software from flatpak and linyaps in the "
+"Miryu Package Manager."
 msgstr ""
 "Miryu Package Manager может предоставлять обновления безопасности, "
 "обновления функций и обновления ядра для операционной системы Evernight "
@@ -79,7 +86,7 @@ msgstr ""
 #: 01-evernight.qml:132
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr ""
+msgstr "Параметры системы"
 
 #: 01-evernight.qml:138
 msgctxt "@info"
@@ -87,6 +94,25 @@ msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
+"Откройте параметры системы KDE и сможете настроить операционную систему "
+"Evernight Vista по-своему, например, настроив периферийные устройства и "
+"оформление."
+
+#: 01-evernight.qml:175
+msgctxt "@title:row"
+msgid "Btrfs Assistant"
+msgstr "Помощник Btrfs"
+
+#: 01-evernight.qml:181
+msgctxt "@info"
+msgid ""
+"Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can "
+"help you easily roll back the system in case of problems after updating or "
+"other issues."
+msgstr ""
+"Использование помощника Btrfs для настройки Snapper и создания моментальных "
+"снимков Btrfs позволит легко откатить систему в случае проблем после "
+"обновления или других неполадок."
 
 #~ msgid "Welcome to Fedora!"
 #~ msgstr "Добро пожаловать в Fedora!"

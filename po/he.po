@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-fedora\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-08-09 12:50+0800\n"
+"POT-Creation-Date: 2026-09-27 03:08+0000\n"
 "PO-Revision-Date: 2025-03-03 17:35+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/fedora-"
@@ -24,7 +24,7 @@ msgstr ""
 #: 01-evernight.qml:18
 msgctxt "@info:window"
 msgid "Evernight Vista New User Guide"
-msgstr ""
+msgstr "מדריך למשתמש חדש ב-Evernight Vista"
 
 #: 01-evernight.qml:19
 msgctxt "@info:usagetip"
@@ -36,7 +36,7 @@ msgstr "הכלים הבאים יכולים לעזור לך להתחיל מהר �
 #: 01-evernight.qml:46
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
-msgstr ""
+msgstr "מנהל התקני Nvidia"
 
 #: 01-evernight.qml:52
 msgctxt "@info"
@@ -47,11 +47,17 @@ msgid ""
 "drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
 "better performance."
 msgstr ""
+"אם יש לך כרטיס גרפי מסוג NVIDIA, יש להשתמש במנהל התקני NVIDIA כדי להתקין "
+"מנהלי התקנים. ליבת Evernight Vista מסוגלת לזהות את רוב מנהלי ההתקנים של "
+"החומרה, ומנהלי התקנים אלו יכולים לפעול אוטומטית ללא התקנת מנהלי התקנים "
+"נוספים, אך מנהלי ההתקנים של NVIDIA דורשים גרסאות קנייניות כדי לפעול כראוי או "
+"להשיג ביצועים מיטביים."
 
 #: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
+#: 01-evernight.qml:188
 msgctxt "@action:button"
 msgid "Start"
-msgstr ""
+msgstr "התחלה"
 
 #: 01-evernight.qml:89
 msgctxt "@title:row"
@@ -64,18 +70,18 @@ msgid ""
 "Miryu Package Manager can provide security updates, feature updates, and "
 "kernel updates for the Evernight Vista operating system, helping to maintain "
 "its security, boost performance, and add support for new hardware. In "
-"addition, you can also install software from flatpak and linyaps in the Miryu "
-"Package Manager."
+"addition, you can also install software from flatpak and linyaps in the "
+"Miryu Package Manager."
 msgstr ""
 "Miryu Package Manager יכול לספק עדכוני אבטחה, עדכוני תכונות ועדכוני ליבה "
 "עבור מערכת ההפעלה Evernight Vista, ובכך לעזור בשמירה על אבטחתה, שיפור "
-"הביצועים והוספת תמיכה בחומרה חדשה. בנוסף, ניתן להתקין תוכנה מ-flatpak ו-"
-"linyaps ב-Miryu Package Manager."
+"הביצועים והוספת תמיכה בחומרה חדשה. בנוסף, ניתן להתקין תוכנה מ-flatpak "
+"ו-linyaps ב-Miryu Package Manager."
 
 #: 01-evernight.qml:132
 msgctxt "@title:row"
 msgid "System Settings"
-msgstr ""
+msgstr "הגדרות מערכת"
 
 #: 01-evernight.qml:138
 msgctxt "@info"
@@ -83,6 +89,23 @@ msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
+"פתיחת הגדרות המערכת של KDE מאפשרת לך להגדיר את מערכת ההפעלה Evernight Vista "
+"בדרכך שלך, כגון הגדרת היקפים חיצוניים והופעה."
+
+#: 01-evernight.qml:175
+msgctxt "@title:row"
+msgid "Btrfs Assistant"
+msgstr "מסייע Btrfs"
+
+#: 01-evernight.qml:181
+msgctxt "@info"
+msgid ""
+"Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can "
+"help you easily roll back the system in case of problems after updating or "
+"other issues."
+msgstr ""
+"השימוש במסייע Btrfs להגדרת Snapper וליצירת תמונות מצב של Btrfs יכול לסייע "
+"לך לגלגל את המערכת אחורה בקלות במקרה של תקלות לאחר עדכון או בעיות אחרות."
 
 #~ msgid "Welcome to Fedora!"
 #~ msgstr "ברוך בואך לפדורה!"
