@@ -59,11 +59,11 @@ msgstr ""
 #: 01-evernight.qml:95
 msgctxt "@info"
 msgid ""
-"Miryu Package Manager can provide security updates, feature updates, and "
+"Miryu Software Center can provide security updates, feature updates, and "
 "kernel updates for the Evernight Vista operating system, helping to maintain "
 "its security, boost performance, and add support for new hardware. In "
 "addition, you can also install software from flatpak and linyaps in the "
-"Miryu Package Manager."
+"Miryu Software Center."
 msgstr ""
 
 #: 01-evernight.qml:132

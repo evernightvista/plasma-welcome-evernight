@@ -65,7 +65,7 @@ Page {
             }
         }
 
-        // ----- 2. Miryu Package Manager (更新系统) -----
+        // ----- 2. Miryu Software Center (更新系统) -----
         Kirigami.CardsLayout {
             Layout.fillWidth: true
             implicitHeight: root.cardHeight
@@ -92,7 +92,7 @@ Page {
                     }
 
                     QQC2.Label {
-                        text: xi18ndc("plasma-welcome-evernight", "@info", "Miryu Package Manager can provide security updates, feature updates, and kernel updates for the Evernight Vista operating system, helping to maintain its security, boost performance, and add support for new hardware. In addition, you can also install software from flatpak and linyaps in the Miryu Package Manager.")
+                        text: xi18ndc("plasma-welcome-evernight", "@info", "Miryu Software Center can provide security updates, feature updates, and kernel updates for the Evernight Vista operating system, helping to maintain its security, boost performance, and add support for new hardware. In addition, you can also install software from flatpak and linyaps in the Miryu Software Center.")
                         wrapMode: Text.WordWrap
                         Layout.fillWidth: true
                     }
@@ -102,7 +102,7 @@ Page {
                     text: i18ndc("plasma-welcome-evernight", "@action:button", "Start")
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     onClicked: {
-                        Controller.launchApp("org.miryu.PackageManager");
+                        Controller.launchApp("org.miryugaming.PackageManager");
                     }
                 }
             }
