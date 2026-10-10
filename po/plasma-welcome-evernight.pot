@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-09-27 03:08+0000\n"
+"POT-Creation-Date: 2026-10-10 04:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +30,17 @@ msgid ""
 "experience."
 msgstr ""
 
-#: 01-evernight.qml:46
+#: 01-evernight.qml:42
+msgctxt "@action:button"
+msgid "About Evernight Vista"
+msgstr ""
+
+#: 01-evernight.qml:74
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
 msgstr ""
 
-#: 01-evernight.qml:52
+#: 01-evernight.qml:80
 msgctxt "@info"
 msgid ""
 "If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
@@ -45,18 +50,18 @@ msgid ""
 "better performance."
 msgstr ""
 
-#: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
-#: 01-evernight.qml:188
+#: 01-evernight.qml:87 01-evernight.qml:130 01-evernight.qml:173
+#: 01-evernight.qml:216
 msgctxt "@action:button"
 msgid "Start"
 msgstr ""
 
-#: 01-evernight.qml:89
+#: 01-evernight.qml:117
 msgctxt "@title:row"
 msgid "Install Software & Update System"
 msgstr ""
 
-#: 01-evernight.qml:95
+#: 01-evernight.qml:123
 msgctxt "@info"
 msgid ""
 "Miryu Software Center can provide security updates, feature updates, and "
@@ -66,27 +71,69 @@ msgid ""
 "Miryu Software Center."
 msgstr ""
 
-#: 01-evernight.qml:132
+#: 01-evernight.qml:160
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr ""
 
-#: 01-evernight.qml:138
+#: 01-evernight.qml:166
 msgctxt "@info"
 msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
 
-#: 01-evernight.qml:175
+#: 01-evernight.qml:203
 msgctxt "@title:row"
 msgid "Btrfs Assistant"
 msgstr ""
 
-#: 01-evernight.qml:181
+#: 01-evernight.qml:209
 msgctxt "@info"
 msgid ""
 "Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can "
 "help you easily roll back the system in case of problems after updating or "
 "other issues."
+msgstr ""
+
+#: 02-about-evernight.qml:28
+msgctxt "@title"
+msgid "About Evernight Vista"
+msgstr ""
+
+#: 02-about-evernight.qml:44
+msgctxt "@title:row"
+msgid "What is Evernight Vista?"
+msgstr ""
+
+#: 02-about-evernight.qml:53
+msgctxt "@info"
+msgid ""
+"Evernight Vista is a Linux distribution built on Fedora, for every beginner "
+"and global user."
+msgstr ""
+
+#: 02-about-evernight.qml:63
+msgctxt "@title:row"
+msgid "Related Links"
+msgstr ""
+
+#: 02-about-evernight.qml:80
+msgctxt "@action:link"
+msgid "Evernight Vista Official Website"
+msgstr ""
+
+#: 02-about-evernight.qml:84
+msgctxt "@action:link"
+msgid "Support Us on Distrowatch"
+msgstr ""
+
+#: 02-about-evernight.qml:116
+msgctxt "@action:link"
+msgid "Evernight Vista Project"
+msgstr ""
+
+#: 02-about-evernight.qml:120
+msgctxt "@action:link"
+msgid "Fedora Linux Official Website"
 msgstr ""

@@ -18,6 +18,34 @@ Page {
     heading: i18ndc("plasma-welcome-evernight", "@info:window", "Evernight Vista New User Guide")
     description: xi18ndc("plasma-welcome-evernight", "@info:usagetip", "The following tools can help you get started quickly and enhance your system experience.")
 
+    // The "About Evernight Vista" sub-page, opened as a Kirigami layer
+    // (sub-page) within the same window — not as a separate new page —
+    // exactly mirroring how the upstream Enjoy.qml page opens its
+    // "Supporting Members" sub-page via pageStack.layers.push().
+    //
+    // Enjoy.qml can write `Supporters {}` because Supporters.qml is shipped
+    // inside the plasma-welcome QML module and registered as a QML type.
+    // The Evernight extra-page is loaded from the filesystem at runtime, so
+    // it is not a registered type; we therefore push it by URL instead,
+    // resolving the path relative to this page so it works regardless of
+    // the install prefix.
+    //
+    // 02-about-evernight.qml lives in the evernight/ sub-directory of
+    // extra-pages/ so the distro-page scanner (which only lists top-level
+    // files) never picks it up as a standalone page, leaving it available
+    // to be pushed on demand here.
+    readonly property url aboutPageUrl: Qt.resolvedUrl("evernight/02-about-evernight.qml")
+
+    // "About Evernight Vista" button, shown in the top-right corner of the toolbar
+    actions: [
+        Kirigami.Action {
+            text: i18ndc("plasma-welcome-evernight", "@action:button", "About Evernight Vista")
+            icon.name: "help-about"
+            displayHint: Kirigami.DisplayHint.KeepVisible
+            onTriggered: pageStack.layers.push(root.aboutPageUrl)
+        }
+    ]
+
     ColumnLayout {
         anchors.fill: parent
         spacing: Kirigami.Units.largeSpacing

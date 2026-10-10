@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-09-27 03:08+0000\n"
-"PO-Revision-Date: 2026-09-27 18:30+0800\n"
+"POT-Creation-Date: 2026-10-10 04:02+0000\n"
+"PO-Revision-Date: 2026-10-10 12:20+0800\n"
 "Last-Translator: 翻译者 <EMAIL@ADDRESS>\n"
 "Language-Team: KairikiFedora Software Team <13278297951@sina.cn>\n"
 "Language: zh_CN\n"
@@ -31,12 +31,17 @@ msgid ""
 "experience."
 msgstr "以下工具可帮助您快速上手并提升系统使用体验。"
 
-#: 01-evernight.qml:46
+#: 01-evernight.qml:42
+msgctxt "@action:button"
+msgid "About Evernight Vista"
+msgstr "关于Evernight Vista"
+
+#: 01-evernight.qml:74
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
 msgstr "NVIDIA 驱动管理器"
 
-#: 01-evernight.qml:52
+#: 01-evernight.qml:80
 msgctxt "@info"
 msgid ""
 "If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
@@ -49,18 +54,18 @@ msgstr ""
 "内核能够识别大多数硬件驱动，这些驱动无需额外安装即可自动工作，但 NVIDIA 驱动"
 "需要专有驱动才能正常工作或获得更佳性能。"
 
-#: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
-#: 01-evernight.qml:188
+#: 01-evernight.qml:87 01-evernight.qml:130 01-evernight.qml:173
+#: 01-evernight.qml:216
 msgctxt "@action:button"
 msgid "Start"
 msgstr "启动"
 
-#: 01-evernight.qml:89
+#: 01-evernight.qml:117
 msgctxt "@title:row"
 msgid "Install Software & Update System"
 msgstr "安装软件与更新系统"
 
-#: 01-evernight.qml:95
+#: 01-evernight.qml:123
 msgctxt "@info"
 msgid ""
 "Miryu Software Center can provide security updates, feature updates, and "
@@ -69,16 +74,16 @@ msgid ""
 "addition, you can also install software from flatpak and linyaps in the "
 "Miryu Software Center."
 msgstr ""
-"Miryu 软件中心可为 Evernight Vista 操作系统提供安全更新、功能更新和内核更"
-"新，有助于维护系统安全、提升性能并增加对新硬件的支持。此外，您还可以在 Miryu "
-"软件中心中从 Flatpak 和玲珑安装软件。"
+"Miryu 软件中心可为 Evernight Vista 操作系统提供安全更新、功能更新和内核更新，"
+"有助于维护系统安全、提升性能并增加对新硬件的支持。此外，您还可以在 Miryu 软件"
+"中心中从 Flatpak 和玲珑安装软件。"
 
-#: 01-evernight.qml:132
+#: 01-evernight.qml:160
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "系统设置"
 
-#: 01-evernight.qml:138
+#: 01-evernight.qml:166
 msgctxt "@info"
 msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
@@ -87,12 +92,12 @@ msgstr ""
 "打开 KDE 系统设置，您可以按自己的方式配置 Evernight Vista 操作系统，例如配置"
 "外设和外观。"
 
-#: 01-evernight.qml:175
+#: 01-evernight.qml:203
 msgctxt "@title:row"
 msgid "Btrfs Assistant"
 msgstr "Btrfs 助手"
 
-#: 01-evernight.qml:181
+#: 01-evernight.qml:209
 msgctxt "@info"
 msgid ""
 "Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can "
@@ -101,6 +106,60 @@ msgid ""
 msgstr ""
 "使用 Btrfs 助手配置 Snapper 并创建 Btrfs 快照，有助于在更新后或因其他问题导致"
 "故障时轻松回滚系统。"
+
+#: 02-about-evernight.qml:28
+msgctxt "@title"
+msgid "About Evernight Vista"
+msgstr "关于Evernight Vista"
+
+#: 02-about-evernight.qml:44
+msgctxt "@title:row"
+msgid "What is Evernight Vista?"
+msgstr "什么是Evernight Vista?"
+
+#: 02-about-evernight.qml:53
+msgctxt "@info"
+msgid ""
+"Evernight Vista is a Linux distribution built on Fedora, for every beginner "
+"and global user."
+msgstr "Evernight Vista基于Fedora，为每一个新手和全球用户而打造的Linux发行版"
+
+#: 02-about-evernight.qml:63
+msgctxt "@title:row"
+msgid "Related Links"
+msgstr "相关链接"
+
+#: 02-about-evernight.qml:80
+msgctxt "@action:link"
+msgid "Evernight Vista Official Website"
+msgstr "Evernight Vista 官网"
+
+#: 02-about-evernight.qml:84
+msgctxt "@action:link"
+msgid "Support Us on Distrowatch"
+msgstr "在Distrowatch支持我们"
+
+#: 02-about-evernight.qml:116
+msgctxt "@action:link"
+msgid "Evernight Vista Project"
+msgstr "Evernight Vista 项目"
+
+#: 02-about-evernight.qml:120
+msgctxt "@action:link"
+msgid "Fedora Linux Official Website"
+msgstr "Fedora Linux 官网"
+
+#~ msgctxt "@info:url"
+#~ msgid "(Clickable: %1)"
+#~ msgstr "(可点击: %1)"
+
+#~ msgctxt "@action:button"
+#~ msgid "Back"
+#~ msgstr "返回"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Go back to the previous page"
+#~ msgstr "返回上一页"
 
 #~ msgctxt "@title:row"
 #~ msgid "Repository Manager"

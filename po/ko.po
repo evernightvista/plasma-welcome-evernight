@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-09-27 03:08+0000\n"
-"PO-Revision-Date: 2026-09-27 18:30+0800\n"
+"POT-Creation-Date: 2026-10-10 04:02+0000\n"
+"PO-Revision-Date: 2026-10-10 19:00+0800\n"
 "Last-Translator: 번역자 <EMAIL@ADDRESS>\n"
 "Language-Team: KairikiFedora Software Team <13278297951@sina.cn>\n"
 "Language: ko\n"
@@ -31,12 +31,17 @@ msgid ""
 msgstr ""
 "다음 도구를 사용하면 빠르게 시작하고 시스템 경험을 향상시킬 수 있습니다."
 
-#: 01-evernight.qml:46
+#: 01-evernight.qml:42
+msgctxt "@action:button"
+msgid "About Evernight Vista"
+msgstr "Evernight Vista 정보"
+
+#: 01-evernight.qml:74
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
 msgstr "NVIDIA 드라이버 관리자"
 
-#: 01-evernight.qml:52
+#: 01-evernight.qml:80
 msgctxt "@info"
 msgid ""
 "If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
@@ -50,18 +55,18 @@ msgstr ""
 "있으며, 이러한 드라이버는 추가 설치 없이 자동으로 작동하지만, NVIDIA 드라이버"
 "는 제대로 작동하거나 더 나은 성능을 얻으려면 독점 드라이버가 필요합니다."
 
-#: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
-#: 01-evernight.qml:188
+#: 01-evernight.qml:87 01-evernight.qml:130 01-evernight.qml:173
+#: 01-evernight.qml:216
 msgctxt "@action:button"
 msgid "Start"
 msgstr "시작"
 
-#: 01-evernight.qml:89
+#: 01-evernight.qml:117
 msgctxt "@title:row"
 msgid "Install Software & Update System"
 msgstr "소프트웨어 설치 및 시스템 업데이트"
 
-#: 01-evernight.qml:95
+#: 01-evernight.qml:123
 msgctxt "@info"
 msgid ""
 "Miryu Software Center can provide security updates, feature updates, and "
@@ -70,17 +75,17 @@ msgid ""
 "addition, you can also install software from flatpak and linyaps in the "
 "Miryu Software Center."
 msgstr ""
-"Miryu 소프트웨어 센터는 Evernight Vista 운영 체제에 보안 업데이트, 기능 업데이"
-"트 및 커널 업데이트를 제공하여 시스템 보안 유지, 성능 향상 및 새 하드웨어 지"
-"원 추가에 도움을 줍니다. 또한 Miryu 소프트웨어 센터에서 Flatpak 및 Linglong으로"
-"부터 소프트웨어를 설치할 수도 있습니다."
+"Miryu 소프트웨어 센터는 Evernight Vista 운영 체제에 보안 업데이트, 기능 업데"
+"이트 및 커널 업데이트를 제공하여 시스템 보안 유지, 성능 향상 및 새 하드웨어 "
+"지원 추가에 도움을 줍니다. 또한 Miryu 소프트웨어 센터에서 Flatpak 및 Linglong"
+"으로부터 소프트웨어를 설치할 수도 있습니다."
 
-#: 01-evernight.qml:132
+#: 01-evernight.qml:160
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "시스템 설정"
 
-#: 01-evernight.qml:138
+#: 01-evernight.qml:166
 msgctxt "@info"
 msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
@@ -89,12 +94,12 @@ msgstr ""
 "KDE 시스템 설정을 열면 주변 장치 및 외관 구성과 같이 Evernight Vista 운영 체"
 "제를 원하는 방식으로 설정할 수 있습니다."
 
-#: 01-evernight.qml:175
+#: 01-evernight.qml:203
 msgctxt "@title:row"
 msgid "Btrfs Assistant"
 msgstr "Btrfs 어시스턴트"
 
-#: 01-evernight.qml:181
+#: 01-evernight.qml:209
 msgctxt "@info"
 msgid ""
 "Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can "
@@ -103,6 +108,62 @@ msgid ""
 msgstr ""
 "Btrfs 어시스턴트를 사용하여 Snapper를 설정하고 Btrfs 스냅샷을 생성하면 업데이"
 "트 후 또는 다른 문제가 발생한 경우 시스템을 쉽게 롤백할 수 있습니다."
+
+#: 02-about-evernight.qml:28
+msgctxt "@title"
+msgid "About Evernight Vista"
+msgstr "Evernight Vista 정보"
+
+#: 02-about-evernight.qml:44
+msgctxt "@title:row"
+msgid "What is Evernight Vista?"
+msgstr "Evernight Vista란 무엇인가요?"
+
+#: 02-about-evernight.qml:53
+msgctxt "@info"
+msgid ""
+"Evernight Vista is a Linux distribution built on Fedora, for every beginner "
+"and global user."
+msgstr ""
+"Evernight Vista는 Fedora 기반의 Linux 배포판으로, 모든 초보자와 전 세계 사용"
+"자를 위해 만들어졌습니다."
+
+#: 02-about-evernight.qml:63
+msgctxt "@title:row"
+msgid "Related Links"
+msgstr "관련 링크"
+
+#: 02-about-evernight.qml:80
+msgctxt "@action:link"
+msgid "Evernight Vista Official Website"
+msgstr "Evernight Vista 공식 웹사이트"
+
+#: 02-about-evernight.qml:84
+msgctxt "@action:link"
+msgid "Support Us on Distrowatch"
+msgstr "Distrowatch에서 지원하기"
+
+#: 02-about-evernight.qml:116
+msgctxt "@action:link"
+msgid "Evernight Vista Project"
+msgstr "Evernight Vista 프로젝트"
+
+#: 02-about-evernight.qml:120
+msgctxt "@action:link"
+msgid "Fedora Linux Official Website"
+msgstr "Fedora Linux 공식 웹사이트"
+
+#~ msgctxt "@info:url"
+#~ msgid "(Clickable: %1)"
+#~ msgstr "(클릭 가능: %1)"
+
+#~ msgctxt "@action:button"
+#~ msgid "Back"
+#~ msgstr "뒤로"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Go back to the previous page"
+#~ msgstr "이전 페이지로 돌아가기"
 
 #~ msgctxt "@title:row"
 #~ msgid "Repository Manager"

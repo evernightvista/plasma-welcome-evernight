@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-fedora\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-09-27 03:08+0000\n"
-"PO-Revision-Date: 2025-03-21 04:16+0000\n"
+"POT-Creation-Date: 2026-10-10 04:02+0000\n"
+"PO-Revision-Date: 2026-10-10 19:00+0800\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
 "fedora-kde/plasma-welcome-fedora/pt/>\n"
@@ -34,12 +34,17 @@ msgstr ""
 "As ferramentas seguintes podem ajudá-lo a começar rapidamente e a melhorar a "
 "sua experiência com o sistema."
 
-#: 01-evernight.qml:46
+#: 01-evernight.qml:42
+msgctxt "@action:button"
+msgid "About Evernight Vista"
+msgstr "Sobre o Evernight Vista"
+
+#: 01-evernight.qml:74
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
 msgstr "Gestor de controladores da Nvidia"
 
-#: 01-evernight.qml:52
+#: 01-evernight.qml:80
 msgctxt "@info"
 msgid ""
 "If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
@@ -55,18 +60,18 @@ msgstr ""
 "adicionais, mas os controladores NVIDIA precisam de controladores "
 "proprietários para funcionar corretamente ou obter um melhor desempenho."
 
-#: 01-evernight.qml:59 01-evernight.qml:102 01-evernight.qml:145
-#: 01-evernight.qml:188
+#: 01-evernight.qml:87 01-evernight.qml:130 01-evernight.qml:173
+#: 01-evernight.qml:216
 msgctxt "@action:button"
 msgid "Start"
 msgstr "Iniciar"
 
-#: 01-evernight.qml:89
+#: 01-evernight.qml:117
 msgctxt "@title:row"
 msgid "Install Software & Update System"
 msgstr "Instalar software e atualizar o sistema"
 
-#: 01-evernight.qml:95
+#: 01-evernight.qml:123
 msgctxt "@info"
 msgid ""
 "Miryu Software Center can provide security updates, feature updates, and "
@@ -81,26 +86,27 @@ msgstr ""
 "desempenho e adicionar suporte para novo hardware. Além disso, também pode "
 "instalar software a partir de flatpak e linyaps no Miryu Software Center."
 
-#: 01-evernight.qml:132
+#: 01-evernight.qml:160
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Definições do sistema"
 
-#: 01-evernight.qml:138
+#: 01-evernight.qml:166
 msgctxt "@info"
 msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
 "operating system your way, like configuring peripherals and appearance."
 msgstr ""
 "Abra as definições do sistema do KDE e poderá configurar o seu sistema "
-"operativo Evernight Vista ao seu modo, como configurar periféricos e aparência."
+"operativo Evernight Vista ao seu modo, como configurar periféricos e "
+"aparência."
 
-#: 01-evernight.qml:175
+#: 01-evernight.qml:203
 msgctxt "@title:row"
 msgid "Btrfs Assistant"
 msgstr "Assistente Btrfs"
 
-#: 01-evernight.qml:181
+#: 01-evernight.qml:209
 msgctxt "@info"
 msgid ""
 "Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can "
@@ -110,6 +116,62 @@ msgstr ""
 "A utilização do assistente Btrfs para configurar o Snapper e criar "
 "instantâneos Btrfs pode ajudá-lo a reverter facilmente o sistema em caso de "
 "problemas após a atualização ou de outros incidentes."
+
+#: 02-about-evernight.qml:28
+msgctxt "@title"
+msgid "About Evernight Vista"
+msgstr "Sobre o Evernight Vista"
+
+#: 02-about-evernight.qml:44
+msgctxt "@title:row"
+msgid "What is Evernight Vista?"
+msgstr "O que é o Evernight Vista?"
+
+#: 02-about-evernight.qml:53
+msgctxt "@info"
+msgid ""
+"Evernight Vista is a Linux distribution built on Fedora, for every beginner "
+"and global user."
+msgstr ""
+"O Evernight Vista é uma distribuição Linux baseada no Fedora, criada para "
+"cada iniciante e utilizador global."
+
+#: 02-about-evernight.qml:63
+msgctxt "@title:row"
+msgid "Related Links"
+msgstr "Links relacionados"
+
+#: 02-about-evernight.qml:80
+msgctxt "@action:link"
+msgid "Evernight Vista Official Website"
+msgstr "Site oficial do Evernight Vista"
+
+#: 02-about-evernight.qml:84
+msgctxt "@action:link"
+msgid "Support Us on Distrowatch"
+msgstr "Apoie-nos no Distrowatch"
+
+#: 02-about-evernight.qml:116
+msgctxt "@action:link"
+msgid "Evernight Vista Project"
+msgstr "Projeto Evernight Vista"
+
+#: 02-about-evernight.qml:120
+msgctxt "@action:link"
+msgid "Fedora Linux Official Website"
+msgstr "Site oficial do Fedora Linux"
+
+#~ msgctxt "@info:url"
+#~ msgid "(Clickable: %1)"
+#~ msgstr "(Clicável: %1)"
+
+#~ msgctxt "@action:button"
+#~ msgid "Back"
+#~ msgstr "Voltar"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Go back to the previous page"
+#~ msgstr "Voltar para a página anterior"
 
 #~ msgid "Welcome to Fedora!"
 #~ msgstr "Bem-vindo ao Fedora!"
