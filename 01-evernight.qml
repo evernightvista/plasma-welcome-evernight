@@ -30,14 +30,22 @@ Page {
     // resolving the path relative to this page so it works regardless of
     // the install prefix.
     //
-    // 02-about-evernight.qml lives in the evernight/ sub-directory of
-    // extra-pages/ so the distro-page scanner (which only lists top-level
-    // files) never picks it up as a standalone page, leaving it available
-    // to be pushed on demand here.
+    // 02-about-evernight.qml and 03-gaming-support.qml live in the evernight/
+    // sub-directory of extra-pages/ so the distro-page scanner (which only
+    // lists top-level files) never picks them up as standalone pages, leaving
+    // them available to be pushed on demand here.
     readonly property url aboutPageUrl: Qt.resolvedUrl("evernight/02-about-evernight.qml")
+    readonly property url gamingSupportPageUrl: Qt.resolvedUrl("evernight/03-gaming-support.qml")
 
-    // "About Evernight Vista" button, shown in the top-right corner of the toolbar
+    // "Gaming Support" and "About Evernight Vista" buttons, shown in the
+    // top-right corner of the toolbar.
     actions: [
+        Kirigami.Action {
+            text: i18ndc("plasma-welcome-evernight", "@action:button", "Gaming Support")
+            icon.name: "input-gaming"
+            displayHint: Kirigami.DisplayHint.KeepVisible
+            onTriggered: pageStack.layers.push(root.gamingSupportPageUrl)
+        },
         Kirigami.Action {
             text: i18ndc("plasma-welcome-evernight", "@action:button", "About Evernight Vista")
             icon.name: "help-about"

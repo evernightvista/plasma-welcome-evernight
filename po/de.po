@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome-evernight\n"
 "Report-Msgid-Bugs-To: https://github.com/evernightvista/plasma-welcome-"
 "evernight/issue\n"
-"POT-Creation-Date: 2026-10-10 04:02+0000\n"
+"POT-Creation-Date: 2026-10-15 09:43+0000\n"
 "PO-Revision-Date: 2026-10-10 19:00+0800\n"
 "Last-Translator: Übersetzer <EMAIL@ADDRESS>\n"
 "Language-Team: KairikiFedora Software Team <13278297951@sina.cn>\n"
@@ -32,17 +32,22 @@ msgstr ""
 "Die folgenden Tools helfen Ihnen, schnell loszulegen und Ihre "
 "Systemerfahrung zu verbessern."
 
-#: 01-evernight.qml:42
+#: 01-evernight.qml:44
+msgctxt "@action:button"
+msgid "Gaming Support"
+msgstr "Spielunterstützung"
+
+#: 01-evernight.qml:50
 msgctxt "@action:button"
 msgid "About Evernight Vista"
 msgstr "Über Evernight Vista"
 
-#: 01-evernight.qml:74
+#: 01-evernight.qml:82
 msgctxt "@title:row"
 msgid "Nvidia Driver Manager"
 msgstr "NVIDIA-Treibermanager"
 
-#: 01-evernight.qml:80
+#: 01-evernight.qml:88
 msgctxt "@info"
 msgid ""
 "If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
@@ -58,18 +63,18 @@ msgstr ""
 "benötigen proprietäre Treiber, um ordnungsgemäß zu funktionieren oder eine "
 "bessere Leistung zu erzielen."
 
-#: 01-evernight.qml:87 01-evernight.qml:130 01-evernight.qml:173
-#: 01-evernight.qml:216
+#: 01-evernight.qml:95 01-evernight.qml:138 01-evernight.qml:181
+#: 01-evernight.qml:224
 msgctxt "@action:button"
 msgid "Start"
 msgstr "Starten"
 
-#: 01-evernight.qml:117
+#: 01-evernight.qml:125
 msgctxt "@title:row"
 msgid "Install Software & Update System"
 msgstr "Software installieren & System aktualisieren"
 
-#: 01-evernight.qml:123
+#: 01-evernight.qml:131
 msgctxt "@info"
 msgid ""
 "Miryu Software Center can provide security updates, feature updates, and "
@@ -84,12 +89,12 @@ msgstr ""
 "neuer Hardware beiträgt. Darüber hinaus können Sie auch Software aus Flatpak "
 "und Linglong im Miryu Software Center installieren."
 
-#: 01-evernight.qml:160
+#: 01-evernight.qml:168
 msgctxt "@title:row"
 msgid "System Settings"
 msgstr "Systemeinstellungen"
 
-#: 01-evernight.qml:166
+#: 01-evernight.qml:174
 msgctxt "@info"
 msgid ""
 "Open the KDE system settings, and you can set up your Evernight Vista "
@@ -99,12 +104,12 @@ msgstr ""
 "Betriebssystem nach Ihren Wünschen einrichten, z. B. Peripheriegeräte und "
 "das Erscheinungsbild konfigurieren."
 
-#: 01-evernight.qml:203
+#: 01-evernight.qml:211
 msgctxt "@title:row"
 msgid "Btrfs Assistant"
 msgstr "Btrfs-Assistent"
 
-#: 01-evernight.qml:209
+#: 01-evernight.qml:217
 msgctxt "@info"
 msgid ""
 "Using the Btrfs assistant to set up Snapper and create Btrfs snapshots can "
@@ -116,17 +121,17 @@ msgstr ""
 "Problemen nach einer Aktualisierung oder anderen Fehlern leicht "
 "zurückzusetzen."
 
-#: 02-about-evernight.qml:28
+#: 02-about-evernight.qml:25
 msgctxt "@title"
 msgid "About Evernight Vista"
 msgstr "Über Evernight Vista"
 
-#: 02-about-evernight.qml:44
+#: 02-about-evernight.qml:40
 msgctxt "@title:row"
 msgid "What is Evernight Vista?"
 msgstr "Was ist Evernight Vista?"
 
-#: 02-about-evernight.qml:53
+#: 02-about-evernight.qml:48
 msgctxt "@info"
 msgid ""
 "Evernight Vista is a Linux distribution built on Fedora, for every beginner "
@@ -135,30 +140,79 @@ msgstr ""
 "Evernight Vista ist eine auf Fedora basierende Linux-Distribution, die für "
 "jeden Einsteiger und Nutzer weltweit entwickelt wurde."
 
-#: 02-about-evernight.qml:63
+#: 02-about-evernight.qml:57
 msgctxt "@title:row"
 msgid "Related Links"
 msgstr "Verwandte Links"
 
-#: 02-about-evernight.qml:80
+#: 02-about-evernight.qml:73
 msgctxt "@action:link"
 msgid "Evernight Vista Official Website"
 msgstr "Evernight Vista Offizielle Website"
 
-#: 02-about-evernight.qml:84
+#: 02-about-evernight.qml:77
 msgctxt "@action:link"
 msgid "Support Us on Distrowatch"
 msgstr "Unterstützen Sie uns auf Distrowatch"
 
-#: 02-about-evernight.qml:116
+#: 02-about-evernight.qml:99
 msgctxt "@action:link"
 msgid "Evernight Vista Project"
 msgstr "Evernight Vista Projekt"
 
-#: 02-about-evernight.qml:120
+#: 02-about-evernight.qml:103
 msgctxt "@action:link"
 msgid "Fedora Linux Official Website"
 msgstr "Fedora Linux Offizielle Website"
+
+#: 03-gaming-support.qml:26
+msgctxt "@title"
+msgid "Gaming Support"
+msgstr "Spielunterstützung"
+
+#: 03-gaming-support.qml:65
+msgctxt "@info"
+msgid ""
+"Evernight Vista supports most Wine and Steam games. With Wine and Steam "
+"Proton, you can easily play Windows games. However, some games may not run "
+"properly under Evernight Vista because of their anti-cheat systems. Or some "
+"games' anti-cheat systems use Epic EAC Linux v2, which may also fail to run "
+"properly under Evernight Vista, because you may receive an anti-cheat error "
+"prompt."
+msgstr "Evernight Vista unterstützt die meisten Wine- und Steam-Spiele. Mit Wine und Steam Proton können Sie Windows-Spiele mühelos spielen. Einige Spiele laufen jedoch aufgrund ihrer Anti-Cheat-Systeme möglicherweise nicht ordnungsgemäß unter Evernight Vista. Oder bei einigen Spielen verwenden die Anti-Cheat-Systeme Epic EAC Linux v2, was ebenfalls dazu führen kann, dass sie unter Evernight Vista nicht ordnungsgemäß laufen, da Sie eine Anti-Cheat-Fehlermeldung erhalten können."
+
+#: 03-gaming-support.qml:74
+msgctxt "@info"
+msgid "Related Links: <a href=\"%1\">Epic's Linux Anti-Cheat System</a>"
+msgstr "Verwandte Links: <a href=\"%1\">Linux-Anti-Cheat-System auf Epic</a>"
+
+#: 03-gaming-support.qml:97
+msgctxt "@title:row"
+msgid "Install the Official Fedora Kernel"
+msgstr "Offiziellen Fedora-Kernel installieren"
+
+#: 03-gaming-support.qml:103
+msgctxt "@info"
+msgid ""
+"If some games' anti-cheat systems use Epic EAC Linux v2 and the games fail "
+"to start, try installing the official Fedora kernel, then boot from the "
+"official Fedora kernel and try to launch games that use the Epic EAC Linux "
+"v2 anti-cheat system again."
+msgstr "Wenn die Anti-Cheat-Systeme einiger Spiele Epic EAC Linux v2 verwenden und die Spiele nicht starten, versuchen Sie, den offiziellen Fedora-Kernel zu installieren, dann vom offiziellen Fedora-Kernel zu starten und Spiele, die das Anti-Cheat-System Epic EAC Linux v2 verwenden, erneut zu starten."
+
+#: 03-gaming-support.qml:110
+msgctxt "@action:button"
+msgid "Install"
+msgstr "Installieren"
+
+#: 03-gaming-support.qml:120
+msgctxt "@info"
+msgid ""
+"Note: If you boot from the official Fedora kernel, some driver support may "
+"be missing, which may cause some hardware to stop working. It is recommended "
+"to boot from the official Fedora kernel only when playing games that use the "
+"Epic EAC Linux v2 anti-cheat system."
+msgstr "Hinweis: Wenn Sie vom offiziellen Fedora-Kernel starten, fehlen möglicherweise einige Treiberunterstützungen, wodurch ein Teil der Hardware nicht mehr funktioniert. Es wird empfohlen, nur dann vom offiziellen Fedora-Kernel zu starten, wenn Sie Spiele mit dem Anti-Cheat-System Epic EAC Linux v2 spielen."
 
 #~ msgctxt "@info:url"
 #~ msgid "(Clickable: %1)"

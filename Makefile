@@ -5,7 +5,7 @@ DOMAIN = plasma-welcome-evernight
 MSGID_BUGS_ADDRESS = https://github.com/evernightvista/plasma-welcome-evernight/issue
 
 # Source files
-QML_FILES = 01-evernight.qml 02-about-evernight.qml
+QML_FILES = 01-evernight.qml 02-about-evernight.qml 03-gaming-support.qml
 
 # Installation paths (overridable)
 DESTDIR =
@@ -69,14 +69,16 @@ $(DOMAIN).mo: $(MO_FILES)
 
 # Install QML pages
 # 01-evernight.qml is the visible distro page (installed to extra-pages/).
-# 02-about-evernight.qml is loaded on demand as a Kirigami layer sub-page
-# when the "About Evernight Vista" button is clicked.  It is installed to
-# a sub-directory of extra-pages/ so the distro-page scanner (which lists
-# only top-level files) never picks it up as a standalone page — hence no
-# extra indicator dot and no standalone page in the navigation sequence.
+# 02-about-evernight.qml and 03-gaming-support.qml are loaded on demand as
+# Kirigami layer sub-pages when the "About Evernight Vista" and "Gaming
+# Support" buttons are clicked.  They are installed to a sub-directory of
+# extra-pages/ so the distro-page scanner (which lists only top-level files)
+# never picks them up as standalone pages — hence no extra indicator dot and
+# no standalone page in the navigation sequence.
 install-qml: $(QML_FILES)
 	$(INSTALL) -D -m644 01-evernight.qml $(DATADIR)/plasma/plasma-welcome/extra-pages/01-evernight.qml
 	$(INSTALL) -D -m644 02-about-evernight.qml $(DATADIR)/plasma/plasma-welcome/extra-pages/evernight/02-about-evernight.qml
+	$(INSTALL) -D -m644 03-gaming-support.qml $(DATADIR)/plasma/plasma-welcome/extra-pages/evernight/03-gaming-support.qml
 
 # Install desktop entry
 install-desktop: data/intro-customization.desktop
