@@ -47,24 +47,25 @@ msgstr "Ɣef Evernight Vista"
 
 #: 01-evernight.qml:82
 msgctxt "@title:row"
-msgid "Nvidia Driver Manager"
-msgstr "Amefrak n yiseɣḍanen n Nvidia"
+msgid "Miryu Hardware Manager"
+msgstr "Amefrak yimeslayen n Miryu"
 
 #: 01-evernight.qml:88
 msgctxt "@info"
 msgid ""
-"If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
-"install drivers. The Evernight Vista kernel can recognize most hardware "
-"drivers, and these drivers can work automatically without installing extra "
-"drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
-"better performance."
-msgstr ""
-"Ma tesɛiḍ takarḍit unadim NVIDIA, seqdec Amefrak n yiseɣḍanen NVIDIA i "
-"usebded n yiseɣḍanen. Ibel (kernel) n Evernight Vista yezmer ad d-yerr "
-"tamussni ɣef uksar n yiseɣḍanen n warrum, yerna yiseɣḍanen-a zemren ad kkren "
-"s wudem awurman war ma tesbeddeḍ yiseɣḍanen-nniḍen, maca yiseɣḍanen n NVIDIA "
-"sran i yiseɣḍanen imaɣlayen akken ad kkken akken iwata neɣ ad awḍen tussfa "
-"yettwaḍfen."
+"View Miryu Hardware Manager's driver management to see if your computer "
+"needs any additional drivers installed. Most hardware drivers can be "
+"recognized by the Evernight Vista kernel, and these drivers work "
+"automatically without installation. However, some drivers may require "
+"additional installation to work properly or get better performance."
+msgstr
+"Wali taneḍṛuft n yiseɣḍanen n Amefrak yimeslayen n Miryu i wakken tḥesseḍ ma"
+" akk aɣrum-ik yegger ad taseḍ isɣḍanen-nniḍen."
+" Aṭas n yiseɣḍanen yimeslayen yettwaɣerrefen ugaraw n Evernight Vista d"
+" yiseɣḍanen-nni swaɣen ɣef wudem awurman war ma taseḍ."
+" Maca, kra n yiseɣḍanen zemren ad yegger tasartut tayeḍ akken ad swaɣen d wakud"
+" neɣ ad d-unfeɣ lvar ur gwra."
+
 
 #: 01-evernight.qml:95 01-evernight.qml:138 01-evernight.qml:181
 #: 01-evernight.qml:224

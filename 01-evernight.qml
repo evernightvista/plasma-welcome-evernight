@@ -58,7 +58,7 @@ Page {
         anchors.fill: parent
         spacing: Kirigami.Units.largeSpacing
 
-        // ----- 1. 驱动管理器 -----
+        // ----- 1. Miryu 硬件管理器 -----
         Kirigami.CardsLayout {
             Layout.fillWidth: true
             implicitHeight: root.cardHeight
@@ -69,7 +69,7 @@ Page {
                 spacing: Kirigami.Units.largeSpacing
 
                 Kirigami.Icon {
-                    source: "nvidia"
+                    source: "yast-hardware"
                     Layout.preferredWidth: Kirigami.Units.iconSizes.huge
                     Layout.preferredHeight: Kirigami.Units.iconSizes.huge
                 }
@@ -79,13 +79,13 @@ Page {
                     spacing: Kirigami.Units.smallSpacing
 
                     Kirigami.Heading {
-                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Nvidia Driver Manager")
+                        text: i18ndc("plasma-welcome-evernight", "@title:row", "Miryu Hardware Manager")
                         level: 3
                         wrapMode: Text.WordWrap
                     }
 
                     QQC2.Label {
-                        text: i18ndc("plasma-welcome-evernight", "@info", "If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to install drivers. The Evernight Vista kernel can recognize most hardware drivers, and these drivers can work automatically without installing extra drivers, but NVIDIA drivers need proprietary ones to work properly or to get better performance.")
+                        text: i18ndc("plasma-welcome-evernight", "@info", "View Miryu Hardware Manager's driver management to see if your computer needs any additional drivers installed. Most hardware drivers can be recognized by the Evernight Vista kernel, and these drivers work automatically without installation. However, some drivers may require additional installation to work properly or get better performance.")
                         wrapMode: Text.WordWrap
                         Layout.fillWidth: true
                     }
@@ -95,7 +95,7 @@ Page {
                     text: i18ndc("plasma-welcome-evernight", "@action:button", "Start")
                     Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
                     onClicked: {
-                        Controller.launchApp("nvidia-driver-manager");
+                        Controller.launchApp("miryu-hardware-manager");
                     }
                 }
             }

@@ -46,24 +46,25 @@ msgstr "Informazioni su Evernight Vista"
 
 #: 01-evernight.qml:82
 msgctxt "@title:row"
-msgid "Nvidia Driver Manager"
-msgstr "Gestore dei driver Nvidia"
+msgid "Miryu Hardware Manager"
+msgstr "Gestore hardware Miryu"
 
 #: 01-evernight.qml:88
 msgctxt "@info"
 msgid ""
-"If you have an NVIDIA graphics card, use the NVIDIA Driver Manager to "
-"install drivers. The Evernight Vista kernel can recognize most hardware "
-"drivers, and these drivers can work automatically without installing extra "
-"drivers, but NVIDIA drivers need proprietary ones to work properly or to get "
-"better performance."
-msgstr ""
-"Se disponi di una scheda grafica NVIDIA, utilizza il Gestore dei driver "
-"NVIDIA per installare i driver. Il kernel di Evernight Vista può riconoscere "
-"la maggior parte dei driver hardware e questi possono funzionare "
-"automaticamente senza doverne installare di aggiuntivi, ma i driver NVIDIA "
-"hanno bisogno di driver proprietari per funzionare correttamente o ottenere "
-"prestazioni migliori."
+"View Miryu Hardware Manager's driver management to see if your computer "
+"needs any additional drivers installed. Most hardware drivers can be "
+"recognized by the Evernight Vista kernel, and these drivers work "
+"automatically without installation. However, some drivers may require "
+"additional installation to work properly or get better performance."
+msgstr
+"Visualizza la gestione dei driver del Gestore hardware Miryu per vedere se il"
+" tuo computer necessita di driver aggiuntivi installati."
+" La maggior parte dei driver hardware può essere riconosciuta dal kernel di"
+" Evernight Vista e questi driver funzionano automaticamente senza installazione."
+" Tuttavia, alcuni driver potrebbero richiedere un'installazione aggiuntiva per"
+" funzionare correttamente o ottenere prestazioni migliori."
+
 
 #: 01-evernight.qml:95 01-evernight.qml:138 01-evernight.qml:181
 #: 01-evernight.qml:224
